@@ -11,8 +11,6 @@ let countWin = 0;
 const argv = yargs(hideBin(process.argv)).argv;
 const fileName = argv._[0];
 
-console.log(argv);
-
 if (fileName == undefined) {
     console.log('Не указано имя файла для логирования результатов');
     process.exit(0);
